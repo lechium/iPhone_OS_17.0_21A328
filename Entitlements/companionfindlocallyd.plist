@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.aosnotification.aosnotifyd-access</key>
+	<true/>
+	<key>com.apple.findmy.findmylocate.friendshipservice</key>
+	<true/>
+	<key>com.apple.imagent</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.nearbyinteraction.background</key>
+	<true/>
+	<key>com.apple.nearbyinteraction.finding.local-device</key>
+	<true/>
+	<key>com.apple.nearbyinteraction.finding.session</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>ArrowChipID</string>
+	</array>
+	<key>com.apple.private.avfoundation.capture.nonstandard-client.allow</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.findmylocaldevice</string>
+	</array>
+	<key>com.apple.private.ids.messaging.urgent-priority</key>
+	<array>
+		<string>com.apple.private.alloy.findmylocaldevice</string>
+	</array>
+	<key>com.apple.private.nearbyinteraction.privileged</key>
+	<true/>
+	<key>com.apple.telephonyutilities.callservicesd</key>
+	<array>
+		<string>access-calls</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.NanoFindMy.NearbyIntreaction</string>
+	</array>
+</dict>
+</plist>

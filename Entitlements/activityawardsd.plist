@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.activityawardsd</string>
+	<key>CFBundleName</key>
+	<string>ActivityAwards Daemon</string>
+	<key>_CFBundleUseAppleLocalizations</key>
+	<true/>
+	<key>com.apple.activitysharingd</key>
+	<true/>
+	<key>com.apple.fitcore</key>
+	<true/>
+	<key>com.apple.fitnesscoachingd</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.ActivityChallengeAssets</string>
+	</array>
+	<key>com.apple.private.healthkit</key>
+	<true/>
+	<key>com.apple.private.healthkit.authorization_bypass</key>
+	<true/>
+	<key>com.apple.private.healthkit.source_override</key>
+	<string>com.apple.private.health.localdevice</string>
+	<key>com.apple.private.sandbox.profile:embedded</key>
+	<string>temporary-sandbox</string>
+	<key>com.apple.private.usernotifications.bundle-identifiers</key>
+	<array>
+		<string>com.apple.ActivityMonitorApp</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.activitysharingd</string>
+		<string>com.apple.healthd.server</string>
+		<string>com.apple.FileCoordination</string>
+		<string>com.apple.fitnesscoachingd</string>
+		<string>com.apple.seymour</string>
+		<string>com.apple.lsd.xpc</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.FitnessCoaching</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.activityawardsd</string>
+		<string>com.apple.ActivitySharing</string>
+		<string>com.apple.nanolifestyle</string>
+	</array>
+	<key>com.apple.security.ts.nano-preference.read-only</key>
+	<array>
+		<string>.GlobalPreferences</string>
+		<string>com.apple.nanolifestyle</string>
+	</array>
+	<key>com.apple.security.ts.springboard-services</key>
+	<true/>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.activityawardsd</string>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

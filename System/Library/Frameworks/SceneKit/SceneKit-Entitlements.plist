@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>passes</key>
+	<dict>
+		<key>SceneKit_copy</key>
+		<dict>
+			<key>clientProgram</key>
+			<false/>
+			<key>colorStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+			</dict>
+			<key>depthStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>inputs</key>
+			<dict>
+				<key>textureSampler0</key>
+				<string>COLOR</string>
+			</dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>COLOR</string>
+				<key>depth</key>
+				<string>DEPTH</string>
+			</dict>
+			<key>program</key>
+			<string>C3D-Copy</string>
+		</dict>
+	</dict>
+	<key>sequence</key>
+	<array>
+		<string>SceneKit_copy</string>
+	</array>
+</dict>
+</plist>

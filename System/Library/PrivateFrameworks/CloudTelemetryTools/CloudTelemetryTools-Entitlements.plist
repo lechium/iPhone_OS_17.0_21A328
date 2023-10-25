@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.CloudTelemetryTools</string>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>production</string>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.private.cloudtelemetrylocalbackend</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CloudTelemetry.framework/XPCServices/CloudTelemetryService.xpc/CloudTelemetryService</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>Library/Caches/</string>
+		<string>Library/Logs/</string>
+		<string>/Library/Caches/com.apple.dyld/CloudTelemetryService</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.cloudd</string>
+		<string>com.apple.cloudd.debug</string>
+		<string>com.apple.ckdiscretionaryd</string>
+		<string>com.apple.ckdiscretionaryd.debug</string>
+		<string>com.apple.cloudkit.partlycloudd</string>
+		<string>com.apple.cloudkit.partlycloudd.debug</string>
+		<string>com.apple.PowerManagement.control</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

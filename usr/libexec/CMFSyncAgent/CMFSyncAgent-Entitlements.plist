@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.cmfsyncagent</string>
+	<key>com.apple.StatusKit.publish.types</key>
+	<array>
+		<string>com.apple.focus.status</string>
+	</array>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>com.apple.cmfsyncagent</string>
+	<key>com.apple.private.dark-wake-network-reachability</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.StatusKit.publish</string>
+	</array>
+</dict>
+</plist>

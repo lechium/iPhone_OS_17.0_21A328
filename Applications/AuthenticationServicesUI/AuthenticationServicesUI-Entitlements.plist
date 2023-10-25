@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.AuthenticationServicesUI</string>
+	<key>com.apple.UIKit.vends-view-services</key>
+	<true/>
+	<key>com.apple.authentication-services-core.authorization-presenter-client</key>
+	<true/>
+	<key>com.apple.authentication-services-core.open-cable-url</key>
+	<true/>
+	<key>com.apple.authentication-services.access-credential-identities</key>
+	<true/>
+	<key>com.apple.authentication-services.allow-authentication-request-any-rpid</key>
+	<true/>
+	<key>com.apple.authkit.authorization-bundle-identifier-proxy</key>
+	<true/>
+	<key>com.apple.authkit.client.internal</key>
+	<true/>
+	<key>com.apple.private.CoreAuthentication.SPI</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.airdrop.settings</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.octagon</key>
+	<true/>
+	<key>com.apple.private.security.container-required</key>
+	<string>com.apple.mobilesafari</string>
+	<key>com.apple.private.security.storage.Safari</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceFaceID</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.AuthenticationServicesCore.AuthenticationServicesAgent</string>
+		<string>com.apple.ak.authorizationservices.xpc</string>
+		<string>com.apple.accountsd.accountmanager</string>
+		<string>com.apple.security.octagon</string>
+		<string>com.apple.sharingd</string>
+	</array>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+</dict>
+</plist>

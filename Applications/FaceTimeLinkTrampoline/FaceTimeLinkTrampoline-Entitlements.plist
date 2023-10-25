@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.FaceTimeLinkTrampoline</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.coreservices.canopenactivity</key>
+	<true/>
+	<key>com.apple.private.swc.system-app</key>
+	<true/>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<array>
+		<string>incallservice-open-link</string>
+	</array>
+</dict>
+</plist>

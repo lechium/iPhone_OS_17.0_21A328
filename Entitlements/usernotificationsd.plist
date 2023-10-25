@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.usernotificationsd</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.usernotificationsd</string>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.bulletinboard.settings</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.bulletinboard</string>
+	</array>
+	<key>com.apple.private.ids.messaging.urgent-priority</key>
+	<array>
+		<string>com.apple.private.alloy.bulletinboard</string>
+	</array>
+	<key>com.apple.private.memorystatus</key>
+	<true/>
+	<key>com.apple.private.sandbox.profile:embedded</key>
+	<string>temporary-sandbox</string>
+	<key>com.apple.private.usernotifications.forwarding</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/BulletinBoard/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<string>AppleKeyStoreUserClient</string>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.assistant.settings</string>
+		<string>com.apple.bulletinboard.settingsconnection</string>
+		<string>com.apple.carkit.service</string>
+		<string>com.apple.coremedia.endpoint.xpc</string>
+		<string>com.apple.coremedia.systemcontroller.xpc</string>
+		<string>com.apple.usernotifications.usernotificationservice</string>
+		<string>com.apple.pearld</string>
+	</array>
+	<key>com.apple.security.exception.process-info</key>
+	<true/>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant.support</string>
+		<string>com.apple.assistant</string>
+		<string>com.apple.assistant.backedup</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.bulletinboard</string>
+	</array>
+	<key>com.apple.security.ts.read-any-bundle</key>
+	<true/>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.usernotificationsd</string>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CanInheritApplicationStateFromOtherProcesses</key>
+	<true/>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.UIKit.vends-view-services</key>
+	<true/>
+	<key>com.apple.printing.getjoblist</key>
+	<true/>
+	<key>com.apple.private.security.container-required</key>
+	<true/>
+	<key>com.apple.private.sessionkit.custom-platter-target</key>
+	<true/>
+	<key>com.apple.private.sessionkit.permitMultipleProcessInputs</key>
+	<true/>
+	<key>com.apple.private.sessionkit.sessionRequest</key>
+	<true/>
+	<key>com.apple.runningboard.primitiveattribute</key>
+	<true/>
+	<key>com.apple.runningboard.trustedtarget</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.sessionservices</string>
+	</array>
+</dict>
+</plist>

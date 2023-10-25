@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.icloudmailagent</string>
+	<key>com.apple.Contacts.database-allow</key>
+	<true/>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.icloudmailagent</string>
+	<key>com.apple.authkit.client.internal</key>
+	<true/>
+	<key>com.apple.authkit.client.private</key>
+	<true/>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>com.apple.icloudmailagent</string>
+	<key>com.apple.mobilemail.mailservices</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.email</key>
+	<true/>
+	<key>com.apple.private.security.restricted-application-groups</key>
+	<array>
+		<string>group.com.apple.mail</string>
+	</array>
+	<key>com.apple.private.security.storage.Mail</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceLiverpool</string>
+		<string>kTCCServiceAddressBook</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.mail</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.kvsd</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>apple</string>
+		<string>com.apple.mail.identities</string>
+	</array>
+</dict>
+</plist>

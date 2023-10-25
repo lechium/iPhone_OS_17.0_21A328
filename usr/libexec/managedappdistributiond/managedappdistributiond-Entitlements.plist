@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adi-client</key>
+	<string>409835401</string>
+	<key>application-identifier</key>
+	<string>com.apple.managedappdistributiond</string>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.authkit.client.internal</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.lsapplicationproxy.deviceidentifierforvendor</key>
+	<true/>
+	<key>com.apple.networkd.set_source_application</key>
+	<true/>
+	<key>com.apple.private.FairPlayIOKitUserClient.access</key>
+	<true/>
+	<key>com.apple.private.InstallCoordination.allowed</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.applemediaservices</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.impersonate</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.set-task-priority</key>
+	<true/>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/com.apple.AppleMediaServices/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>com_apple_driver_FairPlayIOKitUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.cache_delete.public</string>
+		<string>com.apple.frontboard.systemappservices</string>
+		<string>com.apple.xpc.amsaccountsd</string>
+		<string>com.apple.fairplayd.versioned</string>
+	</array>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+	<key>fairplay-client</key>
+	<string>1445028844</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>apple</string>
+	</array>
+</dict>
+</plist>

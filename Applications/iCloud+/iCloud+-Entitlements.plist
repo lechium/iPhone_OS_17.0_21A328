@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>0000000000.com.apple.icq</string>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.authkit.client.private</key>
+	<true/>
+	<key>com.apple.developer.associated-domains</key>
+	<array/>
+	<key>com.apple.itunesstored.private</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.accounts.bundleidspoofing</key>
+	<true/>
+	<key>com.apple.private.ind.client</key>
+	<true/>
+	<key>com.apple.private.swc.system-app</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.adid</string>
+		<string>com.apple.corefollowup.agent</string>
+		<string>com.apple.ind.xpc</string>
+		<string>com.apple.mobile.keybagd.xpc</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

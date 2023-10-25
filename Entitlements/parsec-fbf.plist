@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abs-client</key>
+	<string>1821501079</string>
+	<key>application-identifier</key>
+	<string>com.apple.parsec-fbf</string>
+	<key>com.apple.developer.networking.multipath_extended</key>
+	<true/>
+	<key>com.apple.extensionkit.host.extension-point-identifiers</key>
+	<array>
+		<string>com.apple.mlruntime.extension-point-ondemand</string>
+	</array>
+	<key>com.apple.intents.extension.discovery</key>
+	<true/>
+	<key>com.apple.mlruntime.host.ondemand</key>
+	<true/>
+	<key>com.apple.mlruntime.host.ondemandplugin</key>
+	<array>
+		<string>com.apple.siri.parsec.CoreParsec.SearchPoirotExtension</string>
+	</array>
+	<key>com.apple.private.feedbacklogger</key>
+	<true/>
+	<key>com.apple.private.security.restricted-application-groups</key>
+	<array>
+		<string>group.com.apple.PegasusConfiguration</string>
+	</array>
+	<key>com.apple.rootless.storage.coreparsec_uploadables</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.PegasusConfiguration</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.extensionkitservice</string>
+		<string>com.apple.siri.parsec.CoreParsec.SearchPoirotExtension</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant.backedup</string>
+		<string>com.apple.voicetrigger</string>
+		<string>com.apple.assistant.support</string>
+		<string>com.apple.spotlightui</string>
+	</array>
+	<key>com.apple.springboard.allHomeScreenApplicationBundleIdentifiers</key>
+	<true/>
+	<key>fairplay-client</key>
+	<string>511712240</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.siri.osprey</string>
+	</array>
+</dict>
+</plist>

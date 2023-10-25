@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.rmdctl</string>
+	<key>com.apple.private.MobileContainerManager.lookup</key>
+	<dict>
+		<key>systemData</key>
+		<array>
+			<string>com.apple.remotemanagementd</string>
+		</array>
+	</dict>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.remotemanagement</key>
+	<true/>
+	<key>com.apple.rootless.storage.remotemanagementd</key>
+	<true/>
+</dict>
+</plist>
